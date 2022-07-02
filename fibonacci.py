@@ -1,11 +1,9 @@
-def fibonacci(num):
-     num1=0
-     num2=1
-     series=0
-     for i in range(num):
-       print(series,end=' ');
-       num1 = num2;
-       num2 = series;
-       series = num1+num2;
-num=int(input())
-fibonacci(num)
+a=int(input())
+fa=0
+fb=1
+n=0
+for i in range(a):
+    print(fa,end=" ")
+    n=fa+fb
+    fa=fb
+    fb=n
