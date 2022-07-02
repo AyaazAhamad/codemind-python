@@ -1,7 +1,5 @@
-import math 
-num=int(input())
-root=math.sqrt(num)
-if int(root+0.5)**2==num:
-    print(True)
+n=int(input())
+if int(n**0.5)==n**0.5:
+    print('True')
 else:
-    print(False)
+    print('False')
