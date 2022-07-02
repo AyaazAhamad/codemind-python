@@ -1,9 +1,8 @@
 a,b=map(int,input().split())
-g=l=0
-g=max(a,b)
-while(True):
-    if(g%a==0 and g%b==0):
-        l=g
+lcm=1
+for i in range(10000):
+    if lcm%a==0 and lcm%b==0:
         break
-    g+=1
-print(l)
+    else:
+        lcm+=1
+print(lcm)
